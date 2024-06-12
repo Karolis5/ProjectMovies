@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MoviesApplication<movieist>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.siddheshkukade.movies.MoviesApplication",
+            "projectName": "movieist",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MoviesApplication<Movies>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "MovieApp.Movies.MoviesApplication",
+            "projectName": "Movies",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

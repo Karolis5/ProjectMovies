@@ -1,0 +1,93 @@
+/* MovieContainer.module.css */
+
+.container {
+    padding: 20px;
+    background-color: #f4f4f4; /* Light grey background */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  /* AddMovieForm.module.css */
+  
+  .addMovieForm {
+    background-color: #fff; /* White background for the form */
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .addMovieForm h2 {
+    margin-bottom: 15px;
+  }
+  
+  .addMovieForm label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .addMovieForm input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .addMovieForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .addMovieForm button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* MovieItem.module.css */
+  
+  .movieItem {
+    background-color: #fff; /* White background for each movie item */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .movieItem img {
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  
+  .movieItem .details {
+    flex: 1;
+  }
+  
+  .movieItem .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .movieItem button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .movieItem button:hover {
+    background-color: #0056b3;
+  }
+  
